@@ -1,0 +1,13 @@
+ div > a {
+  color:green ;
+}
+
+div > p a {
+  color:blue ;
+}
+
+body > p span {
+  color:pink;
+}
+
+
