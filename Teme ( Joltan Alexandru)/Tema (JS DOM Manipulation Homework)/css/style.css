@@ -1,0 +1,42 @@
+#form {
+/* 	padding: 10px;
+	border: 0px; */
+	
+/* 	width: 450px;
+	position: static; */
+}
+
+.login {
+	border: 1px solid black;
+	padding: 10px;
+	width: 500px;
+	height: 250px;
+	float: left;
+}
+
+.login_picture {
+	width: 50%;
+	float: right;
+  margin-top: -200px;
+	
+}
+
+.image {
+	width: 100%;
+
+}
+.name {
+	margin: 2px;
+}
+
+.submit_btn {
+ position: relative;
+ left: 135px;
+ padding: 1px;
+}
+
+textarea {
+    resize: none;
+}
+
+
