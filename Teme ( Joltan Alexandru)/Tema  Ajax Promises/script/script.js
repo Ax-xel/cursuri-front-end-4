@@ -1,10 +1,10 @@
 window.addEventListener("load",onHtmlLoaded);
 
 function onHtmlLoaded () {
-	getPost();
+	getPosts();
 }
 
-function getPost () {
+function getPosts () {
 $.ajax("https://anapioficeandfire.com/api/characters/583", {
 	method: "GET",
 	success: function (response) {
