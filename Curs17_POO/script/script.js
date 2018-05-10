@@ -1,5 +1,5 @@
 var car = {
-  "owner.first.name": "Alexandra",
+  "owner.first.name": "Alexandru",
   color: "red",
   nrKm: 10000,
   isNew: false,
