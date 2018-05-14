@@ -1,5 +1,5 @@
 var car = {
-  "owner.first.name": "Alexandru",
+  "owner.first.name": "Alexandra",
   color: "red",
   nrKm: 10000,
   isNew: false,
@@ -126,28 +126,3 @@ for (var i = 0; i < userData.length; i++) {
 }
 
 
-
-
-
-// function User() {
-//     this.name = "";
-//     this.age = 0;
-//     this.height = 0;
-//     this.weight = 0
-//   }
-//   User.prototype.calculateBMI = function () {
-//     return this.weight / ( this.height * this.height);
-//   }
-  
-// for (var i = 0; i < userData.length; i++) { 
-//   var currentUser = userData[i];
-//   var u = new User(); 
-//   u.name = currentUser.name;
-//   u.age = currentUser.age;
-//   u.height = currentUser.height;
-//   u.weight = currentUser.weight;
-  
-//   var rezBmi = u.calculateBMI();
-//   console.log(rezBmi);
-//   console.log(u);
-// }
