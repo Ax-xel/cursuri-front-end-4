@@ -49,7 +49,7 @@ console.log("rez");
 // ==================================================================TEMA NOTITE
 
 //  update= buton de edit
-// Modele = request-uri ajax
+// Modele = request-uri ajax(la server) puse aici
 // view = genereaza div-uri si publica jocurile pe pagina
 
 

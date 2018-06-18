@@ -109,6 +109,11 @@ function updatePost() {
 });
 }
 
+// gameDetailsContainer.innerHTML = "<h3>" + currentGame.title + "</h3>" +
+// 					"<p>" + currentGame.description + "</p>" +
+// 					"<button data-edit-id ='" + currentGame._id + "'>Edit</button><button data-delete-id ='" + currentGame._id + "'>Delete</button>" +
+// 				"</article>";
+
 
 
 		

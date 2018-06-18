@@ -7,12 +7,12 @@ function Post() {
 
 Post.prototype.fetchData = function(id) {
 	var that = this;
-	return $.ajax("https://jsonplaceholder.typicode.com/posts/1", {
+	return $.ajax("https://jsonplaceholder.typicode.com/posts/", {
 		method: "GET",
 		success: function(data) {
 		that.id = data.id;
 		that.title = data.title;
-		that.body = data.body;
+		that.description = data.description;
 		that.userId = data.userId;
 		
 	},
