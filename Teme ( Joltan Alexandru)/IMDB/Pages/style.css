@@ -1,0 +1,106 @@
+body {
+  background: linear-gradient(#d1d5d8, #909396);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+	margin: 25px;
+	display: flex;
+	justify-content: center;
+	overflow: visible;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	border-bottom: double grey;
+}
+  
+
+
+p {
+	 border-bottom: 1px solid black;
+}
+
+
+
+
+img {
+	display:flex;
+	justify-content:center;
+	align-self:center;
+	max-width: 100%;
+  height: auto;
+	height: 182px;
+	width: 268px;
+	left: 150px;
+}
+
+	
+ 
+
+.col {
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 25px;
+	border: 2px solid grey;
+	margin: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+
+
+.col-8 {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 25px;
+	border: 2px solid grey;
+	margin: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+.box {
+	border: 2px solid grey; 
+}
+
+
+#main {
+	position: relative;
+	top: 125px;
+}
+
+#second {
+	
+}
+
+#third {
+	position: relative;
+	top: 125px;
+}
+
+@media (max-width: 345px) {
+	#main{
+		top: 10px;
+		
+	}
+}
+
+@media (max-width: 4000px) {
+	#third{
+		top: 10px;
+		
+	}
+}
+
+
+
+
+
+
+
+
+/*  */ Use the id tag dummy, not the class one
+/* #second {
+	border: 2px solid grey;
+} */

@@ -36,8 +36,6 @@ localStorage.setItem("userData", JSON.stringify(user));
 const userDataLocalStorageStr = localStorage.getItem("userData");
 const userDataLocalStorageObj = JSON.parse(userDataLocalStorageStr);
 
-const userDataVal = localStorage.getItem("userData");
-console.log(userDataVal);
 
 window.onload = function() {
 for (var i =0; i< user.length; i++) {
@@ -64,12 +62,13 @@ for (var i =0; i< user.length; i++) {
 	let btn = document.createElement("BUTTON");
 	btn.innerHTML = "Buy";
 	quantity.appendChild(btn);
-	
-// 	btn.addEventListener("click", click )
-// 	function click(event) {
-// 		userDataLocalStorageObj.quantity = 
-// 		localStorage.setItem("userData", JSON.stringify(userDataLocalStorageObj));
+   btn.addEventListener("click", click )
+	function click(event) {
+		userDataLocalStorageObj.quantity= -1;
+			alert(DataUser.id +"And quantity is:"+userDataLocalStorageObj.quantity)
+		localStorage.setItem("userData", JSON.stringify(userDataLocalStorageObj));
 	}
+}
 }
 	
 //DataUser.item 
